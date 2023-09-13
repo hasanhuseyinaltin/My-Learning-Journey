@@ -1,0 +1,66 @@
+* {
+    background-color:rgb(202, 216, 216) ;
+}
+
+h1 {
+    color: rgb(0, 15, 128);
+    height: 50px;
+    text-decoration:underline  overline black 3px;
+    
+    font-family:'Courier New', Courier, monospace ;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+#chapter1 {
+    color: beige;
+    text-align: center;
+    
+}
+
+
+p {
+    color: blueviolet;
+    font-size: 20px;
+    text-align: center;
+    background-color: blanchedalmond;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    border-width: 2px;
+    border-right: 2px;
+    border-style: outset;
+    border-color: aqua;
+    margin: 20px;
+    padding: 40px;
+    letter-spacing: 4x;
+
+    
+
+
+}
+
+#int {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    
+    text-decoration-style: solid;
+    
+}
+
+.navigation {
+    padding: 10px;
+    color: white;
+
+    background-color: black
+}
+
+h1:hover {
+    transform: scale(1.5);
+    color: aliceblue;
+    animation: forwards;
+    font-family: 'Times New Roman', Times, serif;
+
+}
