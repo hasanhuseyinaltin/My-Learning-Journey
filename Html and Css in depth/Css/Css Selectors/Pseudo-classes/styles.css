@@ -1,0 +1,72 @@
+* {
+    text-align: center;
+}
+
+.mypage, .mybutton {
+    font-family: sans-serif;
+}
+
+a[href] {
+    color: brown;
+}
+
+a:hover {
+    color: white;
+    background-color: black;
+}
+
+.mybutton:active {
+    background-color: blue;
+    color: white;
+    transform: scale(1.5);
+}
+
+fieldset {
+    margin: 20px 250px;
+    box-sizing: content-box;
+    flex: auto;
+    padding: auto ;
+}
+
+li:first-of-type {
+    color: red;
+    background-color:beige ;
+    font-size: larger;
+}
+
+li:last-child {
+    background-color: black;
+    color: wheat;
+    padding: auto;
+    text-align: center;
+    margin: auto;
+    
+}
+
+li::first-letter{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+li::marker {
+    font-size: 40px;
+    content: "*";
+    color: blueviolet;
+}
+
+.tips::before{
+    background: darkkhaki;
+    color:darkslategray;
+    content: "Tip:";
+    border-radius: 30%;
+    padding:6px ;
+
+}
+
+.tips::after{
+    background:darkkhaki;
+    color:darkslategray;
+    content: "!!";
+    border-radius: 20%;
+    padding: 2px;
+}
