@@ -1,9 +1,10 @@
 * {
     box-sizing: border-box;
+    font-size: 18px;
 }
 
 body {
-    background-color:antiquewhite ;
+    background-color: antiquewhite;
     color: #1b1b32;
     font-family: Helvetica, sans-serif;
     overflow: scroll;
@@ -14,14 +15,14 @@ body {
     height: 10vh;
     justify-content: center;
     align-items: center;
-    margin:30px auto;
+    margin: 30px auto;
 
 }
 
 nav {
-background-color: bisque;
-padding: 30px;
-   
+    background-color: bisque;
+    padding: 30px;
+
 }
 
 nav ul {
@@ -34,7 +35,7 @@ nav ul {
     margin: auto;
 }
 
-li{
+li {
     text-decoration: none;
 
 }
@@ -46,11 +47,41 @@ ul li a {
     font-size: 30px;
 }
 
-ul li a:hover{
+ul li a:hover {
     color: rgb(3, 123, 83);
     text-shadow: #363640;
 }
-main{
+
+.promotion-container {
+    position: relative;
+    text-align: center;
+}
+
+.promotion-content {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-weight: bolder;
+    color: #0e0d0d;
+}
+
+
+.promotion-content h1 {
+    font-size: 50px;
+    left: 0;
+}
+
+.promotion-content:hover {
+    color: #fff;
+}
+
+.promotion-image {
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+
+main {
     margin: 30px 30px;
 }
 
@@ -60,47 +91,75 @@ main{
     justify-content: space-between;
 }
 
-.main1{
+.main1 {
     justify-content: center;
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
-.section{
+
+.section {
     margin: 0 10px;
     border-color: rgb(43, 189, 226);
     border-radius: 20px;
     padding: 20px;
-    background-color:rgb(218, 160, 119);
-
+    background-color: rgb(218, 160, 119);
 }
 
-.img{
-    margin:0 10px;
+.section:hover {
+    opacity: 0.9;
+    color: azure;
+}
+
+.img {
+    margin: 0 10px;
     max-width: 300px;
     width: inherit;
 }
 
-.footer{
+.footer {
     display: flex;
-    margin-left: 30px;
+    margin-left: 70px;
     margin-top: 100px;
 }
 
-.footer-img{
+.footer-img {
     height: 10vh;
-    
+
 }
 
-.footer2{
-   margin-left: auto;
-   margin-right: 30px;
-   color: rgb(59, 66, 72);
-   text-decoration: overline;
-   text-decoration-color: blue;
-   opacity: 0.5;
-   
+.footer2 {
+    margin-left: auto;
+    margin-right: 30px;
+    color: rgb(59, 66, 72);
+    text-decoration-color: blue;
+    opacity: 0.5;
 }
 
-.footer-logo2{
-  height: 8vh;
-  margin-left:60px ;
+
+
+hr {
+    color: #000;
+    background-color: #000;
+    height: 2px;
+    width: 180px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+
+.footer-logo2 {
+    height: 8vh;
+    margin-left: 60px;
+}
+
+.link-for {
+    color: #4b4b96;
+    font-size: small;
+}
+
+.link-for:hover {
+    font-size: large;
+    color: #000;
+    cursor: pointer;
 }
