@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import mediaex from './mediaex';
 
 function App() {
   return (
@@ -9,6 +10,9 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <media>
+        <mediaex/>
+      </media>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -18,6 +22,8 @@ function App() {
           Learn React
         </a>
       </header>
+      
+      
     </div>
   );
 }
