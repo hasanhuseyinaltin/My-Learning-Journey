@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#hide").click(function () {
+                $("#hide-show").hide(1000);
+            });
+            $("#show").click(function () {
+                $("#hide-show").show(100);
+            });
+            $("#toggle").click(function () {
+                $("#toggle-ex").toggle("slow");
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <button id="hide">Hide</button>
+    <button id="show">Show</button>
+
+
+    <div id="hide-show">
+        <p>This is a paragraph with little content.</p>
+        <p>This is another small paragraph.</p>
+    </div>
+
+    <button id="toggle">Toggle</button>
+
+    <div id="toggle-ex">
+        <h1>This is for toogle example</h1>
+        <p>Toggle between hiding and showing the paragraphs</p>
+    </div>
+
+
+</body>
+
+</html>
