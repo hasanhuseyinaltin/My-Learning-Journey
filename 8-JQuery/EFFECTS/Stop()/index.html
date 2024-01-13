@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $("#flip").click(function(){
+            $("#panel").slideDown(2500);
+          });
+          $("button").click(function(){
+            $("#panel").stop();
+            alert("Let me be freeeeee")
+          });
+        })
+    </script>
+    <style> 
+        #panel, #flip {
+          padding: 10px;
+          font-size: 20px;
+          text-align: center;
+          background-color: #555;
+          color: white;
+          border: solid 2px #3a3737;
+          border-radius: 3px;
+        }
+        
+        #panel {
+          padding: 70px;
+          display: none;
+        }
+        </style>
+</head>
+<body>
+    <button>Stop sliding</button>
+    <div id="flip">Slide down panel</div>
+    <div id="panel">YES!! I am Freeee</div>
+</body>
+</html>
